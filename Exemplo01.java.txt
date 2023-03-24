@@ -1,0 +1,15 @@
+
+public class Exemplo 01{
+
+	public static void main (String args[]){
+		double N1, N2, N3, N4, Res;
+		N1 = Double.parseDouble(System.control().readLline());
+		N2 = Double.parseDouble(System.control().readLline());
+		N3 = Double.parseDouble(System.control().readLline());
+		N4 = Double.parseDouble(System.control().readLline());
+		
+		Res = N1 + N2 + N3 + N4 / 4;
+		
+		System.out.println(Res);
+	}
+}
